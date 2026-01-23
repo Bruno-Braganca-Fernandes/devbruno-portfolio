@@ -477,10 +477,13 @@ img {
 
 @media screen and (min-height: 721px) {
   .home__container {
-    height: 640px;
+    height: 100vh;
+    position: relative;
   }
   .home__img {
-    width: 500px;
-    right: 24%;
+    width: 650px;
+    right: 0.5rem;
+    position: absolute;
+    bottom: 0;
   }
 }
